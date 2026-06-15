@@ -1,0 +1,103 @@
+### [call_methylation_wgbstools_dedup] start=2026-06-09T01:05:02+08:00
+CMD: /share/home/yhsun24//src/wgbs_tools-master/wgbstools bam2pat --genome GRCh38_ENCODE --out_dir benchmark_out/ENCFF072EDU/format/wgbstools --threads 8 --mapq 30 --force --lbeta benchmark_out/ENCFF072EDU/format/bam/ENCFF072EDU.dedup.bam
+[wt bam2pat] bam: benchmark_out/ENCFF072EDU/format/bam/ENCFF072EDU.dedup.bam
+[ patter ] [ chr4 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr5 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr6 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr3 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr7 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr8 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr2 ] line 5,000,000 in 1.3 minutes.
+[ patter ] [ chr1 ] line 5,000,000 in 1.3 minutes.
+[ patter ] [ chr4 ] line 10,000,000 in 1.1 minutes.
+[match maker] [ chr8 ] finished 9,499,192 lines.
+[ patter ] [ chr8 ] finished 9,499,192 lines. (4,749,596 pairs). 3,948,719 good, 5,550,473 empty, 0 invalid. (success 100%)
+[ patter ] [ chr5 ] line 10,000,000 in 1.1 minutes.
+[ patter ] [ chr6 ] line 10,000,000 in 1.2 minutes.
+[ patter ] [ chr3 ] line 10,000,000 in 1.2 minutes.
+[match maker] [ chr7 ] finished 9,892,404 lines.
+[ patter ] [ chr7 ] finished 9,892,404 lines. (4,946,202 pairs). 4,195,706 good, 5,696,698 empty, 0 invalid. (success 100%)
+[ patter ] [ chr2 ] line 10,000,000 in 1.2 minutes.
+[ patter ] [ chr1 ] line 10,000,000 in 1.2 minutes.
+[match maker] [ chr6 ] finished 11,545,606 lines.
+[ patter ] [ chr6 ] finished 11,545,606 lines. (5,772,803 pairs). 4,673,318 good, 6,872,288 empty, 0 invalid. (success 100%)
+[match maker] [ chr5 ] finished 12,013,692 lines.
+[ patter ] [ chr5 ] finished 12,013,692 lines. (6,006,846 pairs). 4,769,686 good, 7,244,006 empty, 0 invalid. (success 100%)
+[match maker] [ chr4 ] finished 13,670,604 lines.
+[ patter ] [ chr4 ] finished 13,670,604 lines. (6,835,302 pairs). 5,167,309 good, 8,503,295 empty, 0 invalid. (success 100%)
+[match maker] [ chr3 ] finished 13,368,718 lines.
+[ patter ] [ chr3 ] finished 13,368,718 lines. (6,684,359 pairs). 5,331,502 good, 8,037,216 empty, 0 invalid. (success 100%)
+[match maker] [ chr1 ] finished 13,710,584 lines.
+[ patter ] [ chr1 ] finished 13,710,584 lines. (6,855,292 pairs). 5,871,828 good, 7,838,756 empty, 0 invalid. (success 100%)
+[ patter ] [ chr9 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr2 ] line 15,000,000 in 1.2 minutes.
+[ patter ] [ chr10 ] line 5,000,000 in 1.2 minutes.
+[match maker] [ chr2 ] finished 15,660,430 lines.
+[ patter ] [ chr2 ] finished 15,660,430 lines. (7,830,215 pairs). 6,481,522 good, 9,178,908 empty, 0 invalid. (success 100%)
+[ patter ] [ chr11 ] line 5,000,000 in 1.2 minutes.
+[match maker] [ chr9 ] finished 6,909,212 lines.
+[ patter ] [ chr9 ] finished 6,909,212 lines. (3,454,606 pairs). 2,989,037 good, 3,920,175 empty, 0 invalid. (success 100%)
+[ patter ] [ chr12 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr13 ] line 5,000,000 in 1.2 minutes.
+[ patter ] [ chr14 ] line 5,000,000 in 1.2 minutes.
+[match maker] [ chr10 ] finished 8,086,606 lines.
+[ patter ] [ chr10 ] finished 8,086,606 lines. (4,043,303 pairs). 3,650,120 good, 4,436,486 empty, 0 invalid. (success 100%)
+[match maker] [ chr14 ] finished 5,660,884 lines.
+[ patter ] [ chr14 ] finished 5,660,884 lines. (2,830,442 pairs). 2,382,954 good, 3,277,930 empty, 0 invalid. (success 100%)
+[match maker] [ chr15 ] finished 4,666,350 lines.
+[ patter ] [ chr15 ] finished 4,666,350 lines. (2,333,175 pairs). 2,145,233 good, 2,521,117 empty, 0 invalid. (success 100%)
+[match maker] [ chr11 ] finished 8,181,496 lines.
+[ patter ] [ chr11 ] finished 8,181,496 lines. (4,090,748 pairs). 3,452,459 good, 4,729,037 empty, 0 invalid. (success 100%)
+[match maker] [ chr13 ] finished 6,927,470 lines.
+[ patter ] [ chr13 ] finished 6,927,470 lines. (3,463,735 pairs). 2,740,730 good, 4,186,740 empty, 0 invalid. (success 100%)
+[match maker] [ chr12 ] finished 8,469,966 lines.
+[ patter ] [ chr12 ] finished 8,469,966 lines. (4,234,983 pairs). 3,585,345 good, 4,884,621 empty, 0 invalid. (success 100%)
+[match maker] [ chr16 ] finished 4,009,830 lines.
+[ patter ] [ chr16 ] finished 4,009,830 lines. (2,004,915 pairs). 2,165,317 good, 1,844,513 empty, 0 invalid. (success 100%)
+[match maker] [ chrY ] finished 514,820 lines.
+[ patter ] [ chrY ] finished 514,820 lines. (257,410 pairs). 215,321 good, 299,499 empty, 0 invalid. (success 100%)
+[match maker] [ chrM ] finished 68,926 lines.
+[ patter ] [ chrM ] finished 68,926 lines. (34,463 pairs). 61,659 good, 7,267 empty, 0 invalid. (success 100%)
+[match maker] [ chr17 ] finished 3,950,590 lines.
+[ patter ] [ chr17 ] finished 3,950,590 lines. (1,975,295 pairs). 2,126,598 good, 1,823,992 empty, 0 invalid. (success 100%)
+[match maker] [ chr22 ] finished 1,525,344 lines.
+[ patter ] [ chr22 ] finished 1,525,344 lines. (762,672 pairs). 898,375 good, 626,969 empty, 0 invalid. (success 100%)
+[match maker] [ chr19 ] finished 2,427,696 lines.
+[ patter ] [ chr19 ] finished 2,427,696 lines. (1,213,848 pairs). 1,454,495 good, 973,201 empty, 0 invalid. (success 100%)
+[match maker] [ chr21 ] finished 2,327,850 lines.
+[ patter ] [ chr21 ] finished 2,327,850 lines. (1,163,925 pairs). 1,064,129 good, 1,263,721 empty, 0 invalid. (success 100%)
+[match maker] [ chr20 ] finished 3,393,160 lines.
+[ patter ] [ chr20 ] finished 3,393,160 lines. (1,696,580 pairs). 1,677,435 good, 1,715,725 empty, 0 invalid. (success 100%)
+[ patter ] [ chr18 ] line 5,000,000 in 1.2 minutes.
+[match maker] [ chr18 ] finished 5,061,564 lines.
+[ patter ] [ chr18 ] finished 5,061,564 lines. (2,530,782 pairs). 2,130,414 good, 2,931,150 empty, 0 invalid. (success 100%)
+[ patter ] [ chrX ] line 5,000,000 in 1.2 minutes.
+[match maker] [ chrX ] finished 5,024,236 lines.
+[ patter ] [ chrX ] finished 5,024,236 lines. (2,512,118 pairs). 1,987,090 good, 3,037,146 empty, 0 invalid. (success 100%)
+[wt bam2pat] indexing and generating beta file...
+[wt bam2pat] generated benchmark_out/ENCFF072EDU/format/wgbstools/ENCFF072EDU.dedup.pat.gz
+[wt bam2pat] generated benchmark_out/ENCFF072EDU/format/wgbstools/ENCFF072EDU.dedup.lbeta
+	Command being timed: "/share/home/yhsun24//src/wgbs_tools-master/wgbstools bam2pat --genome GRCh38_ENCODE --out_dir benchmark_out/ENCFF072EDU/format/wgbstools --threads 8 --mapq 30 --force --lbeta benchmark_out/ENCFF072EDU/format/bam/ENCFF072EDU.dedup.bam"
+	User time (seconds): 4912.08
+	System time (seconds): 647.66
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:37:37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1003288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10776257
+	Voluntary context switches: 84006835
+	Involuntary context switches: 75108
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [call_methylation_wgbstools_dedup] STATUS=OK rc=0 end=2026-06-09T02:42:40+08:00

@@ -1,0 +1,56 @@
+### [prepare_genome_wgbstools] start=2026-06-08T23:20:51+08:00
+CMD: /share/home/yhsun24//src/wgbs_tools-master/wgbstools init_genome --fasta_path /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/data/GRCh38_ENCODE.fa GRCh38_ENCODE --threads 8 --force --no_default
+[wt init] Setting up genome reference files in /share/home/yhsun24/src/wgbs_tools-master/references/GRCh38_ENCODE
+[wt init] Processing chromosomes...
+[wt init] chromosome: chr1
+[wt init] chromosome: chr2
+[wt init] chromosome: chr3
+[wt init] chromosome: chr4
+[wt init] chromosome: chr5
+[wt init] chromosome: chr6
+[wt init] chromosome: chr7
+[wt init] chromosome: chr8
+[wt init] chromosome: chr9
+[wt init] chromosome: chr10
+[wt init] chromosome: chr11
+[wt init] chromosome: chr12
+[wt init] chromosome: chr13
+[wt init] chromosome: chr14
+[wt init] chromosome: chr15
+[wt init] chromosome: chr16
+[wt init] chromosome: chr17
+[wt init] chromosome: chr18
+[wt init] chromosome: chr19
+[wt init] chromosome: chr20
+[wt init] chromosome: chr21
+[wt init] chromosome: chr22
+[wt init] chromosome: chrX
+[wt init] chromosome: chrY
+[wt init] chromosome: chrM
+[wt init] Building CpG-Index dictionary...
+[wt init] bgzip and index...
+[wt init] Finished initialization of genome GRCh38_ENCODE
+	Command being timed: "/share/home/yhsun24//src/wgbs_tools-master/wgbstools init_genome --fasta_path /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/data/GRCh38_ENCODE.fa GRCh38_ENCODE --threads 8 --force --no_default"
+	User time (seconds): 144.92
+	System time (seconds): 17.01
+	Percent of CPU this job got: 189%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3298392
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 2541106
+	Voluntary context switches: 765703
+	Involuntary context switches: 18469
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [prepare_genome_wgbstools] STATUS=OK rc=0 end=2026-06-08T23:22:18+08:00

@@ -1,0 +1,39 @@
+### [dedup_bam_sambamba] start=2026-06-09T00:14:06+08:00
+CMD: sambamba markdup -r -t 8 data/ENCFF790EEU.bam benchmark_out/ENCFF790EEU/format/bam/ENCFF790EEU.dedup.bam
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.38.0 / DMD v2.108.1 / LLVM17.0.6 / bootstrap LDC - the LLVM D compiler (1.38.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 0 end pairs
+     and 895277115 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 95805 ms
+  found 407701133 duplicates
+collected list of positions in 9 min 2 sec
+removing duplicates...
+collected list of positions in 46 min 21 sec
+	Command being timed: "sambamba markdup -r -t 8 data/ENCFF790EEU.bam benchmark_out/ENCFF790EEU/format/bam/ENCFF790EEU.dedup.bam"
+	User time (seconds): 9621.03
+	System time (seconds): 193.38
+	Percent of CPU this job got: 352%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 46:22.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1740672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 6613593
+	Voluntary context switches: 24670550
+	Involuntary context switches: 17553432
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 22813584
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [dedup_bam_sambamba] STATUS=OK rc=0 end=2026-06-09T01:00:29+08:00

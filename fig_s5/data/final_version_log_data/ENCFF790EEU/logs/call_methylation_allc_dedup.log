@@ -1,0 +1,26 @@
+### [call_methylation_allc_dedup] start=2026-06-09T03:39:28+08:00
+CMD: allcools bam-to-allc --bam benchmark_out/ENCFF790EEU/format/bam/ENCFF790EEU.dedup.bam --reference_fasta /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/data/GRCh38_ENCODE.fa --output_path benchmark_out/ENCFF790EEU/format/allc/ENCFF790EEU.allc.gz --min_mapq 30 --min_base_quality 1 --cpu 1
+	Command being timed: "allcools bam-to-allc --bam benchmark_out/ENCFF790EEU/format/bam/ENCFF790EEU.dedup.bam --reference_fasta /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/data/GRCh38_ENCODE.fa --output_path benchmark_out/ENCFF790EEU/format/allc/ENCFF790EEU.allc.gz --min_mapq 30 --min_base_quality 1 --cpu 1"
+	User time (seconds): 7826.41
+	System time (seconds): 129.79
+	Percent of CPU this job got: 154%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25:42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 796672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 129
+	Minor (reclaiming a frame) page faults: 4277019
+	Voluntary context switches: 14766354
+	Involuntary context switches: 14318
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [call_methylation_allc_dedup] STATUS=OK rc=0 end=2026-06-09T05:05:11+08:00

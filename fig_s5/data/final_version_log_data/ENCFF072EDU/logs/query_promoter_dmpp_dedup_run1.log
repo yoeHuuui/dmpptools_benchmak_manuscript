@@ -1,0 +1,26 @@
+### [query_promoter_dmpp_dedup_run1] start=2026-06-09T04:28:03+08:00
+CMD: /share/home/yhsun24/Project/DMcube/dmcube_github/dmpptools-main-3f2b133/dmpp region-stats -i benchmark_out/ENCFF072EDU/format/dmpp/ENCFF072EDU.dedup.dmpp --bed /share/home/yhsun24/yhsun/MethMarkerDB_update/Genome/hg38/gene.id.promoter.bed --context CG --emit-zero
+	Command being timed: "/share/home/yhsun24/Project/DMcube/dmcube_github/dmpptools-main-3f2b133/dmpp region-stats -i benchmark_out/ENCFF072EDU/format/dmpp/ENCFF072EDU.dedup.dmpp --bed /share/home/yhsun24/yhsun/MethMarkerDB_update/Genome/hg38/gene.id.promoter.bed --context CG --emit-zero"
+	User time (seconds): 47.41
+	System time (seconds): 0.30
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:51.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 45624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 6283
+	Voluntary context switches: 1780
+	Involuntary context switches: 112
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [query_promoter_dmpp_dedup_run1] STATUS=OK rc=0 end=2026-06-09T04:28:54+08:00

@@ -1,0 +1,26 @@
+### [query_promoter_ballc_run3] start=2026-06-09T06:13:23+08:00
+CMD: python /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/query_ballc_batch_v2.py -i benchmark_out/ENCFF790EEU/format/ballc/ENCFF790EEU.ballc -b /share/home/yhsun24/yhsun/MethMarkerDB_update/Genome/hg38/gene.id.promoter.bed -o /dev/null -t 8 -c benchmark_out/ENCFF790EEU/format/ballc/GRCh38_ENCODE_cmeta.gz -x CGN
+	Command being timed: "python /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/query_ballc_batch_v2.py -i benchmark_out/ENCFF790EEU/format/ballc/ENCFF790EEU.ballc -b /share/home/yhsun24/yhsun/MethMarkerDB_update/Genome/hg38/gene.id.promoter.bed -o /dev/null -t 8 -c benchmark_out/ENCFF790EEU/format/ballc/GRCh38_ENCODE_cmeta.gz -x CGN"
+	User time (seconds): 3131.79
+	System time (seconds): 972.68
+	Percent of CPU this job got: 543%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:35.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 60208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 466580033
+	Voluntary context switches: 19502339
+	Involuntary context switches: 27058
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [query_promoter_ballc_run3] STATUS=OK rc=0 end=2026-06-09T06:25:59+08:00

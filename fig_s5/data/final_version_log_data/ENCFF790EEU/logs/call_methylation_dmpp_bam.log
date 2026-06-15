@@ -1,0 +1,27 @@
+### [call_methylation_dmpp_bam] start=2026-06-09T01:24:39+08:00
+CMD: /share/home/yhsun24/Project/DMcube/dmcube_github/dmpptools-main-3f2b133/dmpp bam2dm -C -E -S --Cx --maxcoverage 1000 -Q 30 --coverage 1 -g /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/data/GRCh38_ENCODE.fa -b data/ENCFF790EEU.bam -m benchmark_out/ENCFF790EEU/format/dmpp/ENCFF790EEU.bam.dmpp -p 8 --pe_overlap 1 --remove_dup
+[bam2dm] Methratio=1 Prefix=benchmark_out/ENCFF790EEU/format/dmpp/ENCFF790EEU.bam.dmpp printtxt=0 chunkBy=chrom processChr=NAN-mm processRegion=NAN-mm
+	Command being timed: "/share/home/yhsun24/Project/DMcube/dmcube_github/dmpptools-main-3f2b133/dmpp bam2dm -C -E -S --Cx --maxcoverage 1000 -Q 30 --coverage 1 -g /share/home/yhsun24/Project/DMcube/benchmark_20260323/whole_pipeline/data/GRCh38_ENCODE.fa -b data/ENCFF790EEU.bam -m benchmark_out/ENCFF790EEU/format/dmpp/ENCFF790EEU.bam.dmpp -p 8 --pe_overlap 1 --remove_dup"
+	User time (seconds): 7189.29
+	System time (seconds): 39.25
+	Percent of CPU this job got: 491%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:29.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24351632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10631443
+	Voluntary context switches: 65315
+	Involuntary context switches: 25313
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+### [call_methylation_dmpp_bam] STATUS=OK rc=0 end=2026-06-09T01:49:09+08:00

@@ -1,0 +1,7 @@
+x	y	pearson_r	n
+ballc	wgbstools	0.999951	57197
+ballc	dmpp_dedup	0.999632	57197
+ballc	dmpp_bam	0.999230	57197
+wgbstools	dmpp_dedup	0.999622	57197
+wgbstools	dmpp_bam	0.999219	57197
+dmpp_dedup	dmpp_bam	0.999543	57197
